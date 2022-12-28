@@ -21,7 +21,7 @@ public class typeConversion {
 
         Scanner sc = new Scanner(System.in);
 
-        float number = sc.nextInt();
+        float number = sc.nextInt(); // int -> float
         System.out.println(number);
 
     }
