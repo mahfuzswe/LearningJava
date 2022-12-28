@@ -13,8 +13,8 @@ public class test{
         // double d = sc.nextDouble();
         // System.out.println(d);
 
-        long a = sc.nextLong();
-        System.out.println(a);
+        // long a = sc.nextLong();
+        // System.out.println(a);
 
     }
 }
