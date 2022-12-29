@@ -10,6 +10,5 @@ public class logicalOperates {
         // System.out.println(!(5>0));
         System.out.println(!(5<0));
 
-
      }
 }
