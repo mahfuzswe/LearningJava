@@ -7,8 +7,8 @@ public class test{
         // String name = sc.nextLine();
         // System.out.println(name);
 
-        // float a = sc.nextFloat();
-        // System.out.println(a);
+        float a = sc.nextFloat();
+        System.out.println(a);
 
         // double d = sc.nextDouble();
         // System.out.println(d);
