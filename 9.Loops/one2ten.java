@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class one2ten {
     public static void main(String args[]){
         int counter = 1;

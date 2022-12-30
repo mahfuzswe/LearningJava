@@ -6,6 +6,5 @@ public class WhileLoop {
             counter++;
         }
         System.out.println("Printed HW 10X");
-
     }
 }
