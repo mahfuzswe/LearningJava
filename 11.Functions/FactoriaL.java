@@ -1,3 +1,6 @@
+import code.life;
+
+
 public class FactoriaL {
     public static int factoriaL(int n){
         int f = 1;
