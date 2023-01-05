@@ -1,34 +1,31 @@
-public class maxSubArraySum {
+public class maximumSubarraySum {
     
-    public static void maxSubarraysum(int numbers[]){
+    public static void maxsub_array(int numbers[]){
         int currSum = 0;
         int maxSum = Integer.MIN_VALUE;
 
         for(int i=0; i<numbers.length; i++){
             int start = i;
-            for(int j=i; j<=numbers.length; j++){
+            for(int j=i; j<numbers.length; j++){
                 int end = j;
                 currSum = 0;
-                for(int k=start; k<=end; k++){ //print
+                for(int k=start; k<=end; k++){
                     //subarray sum
                     currSum += numbers[k];
                 }
                 System.out.println(currSum);
-                if(maxSum<currSum){
+                if(maxSum < currSum){
                     maxSum = currSum;
                 }
-            }
+            }   
         }
         System.out.println("max sum = "+maxSum);
-
     }
 
+    
 
     public static void main(String args[]){
-        int numbers[] = {2,4,6,8,10};
-        maxSubarraysum(numbers);
+        int numbers[] = {1,-2,6,-1,3};
+        maxsub_array(numbers);
     }
 }
-
-// brute force method 
-// time complexity : O(n^3)
