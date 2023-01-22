@@ -1,4 +1,4 @@
-public class ithBit {
+public class get_ithBit {
     
     public static int getIthBit(int n, int i){
         int bitMask = 1<<i;
