@@ -4,11 +4,14 @@ public class test{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
 
-        // String name = sc.nextLine();
-        // System.out.println(name);
+        String name = sc.nextLine();
+        System.out.println(name);
 
-        float a = sc.nextFloat();
-        System.out.println(a);
+        // float a = sc.nextFloat();
+        // System.out.println(a);
+
+        System.out.println("it's Time for Java");
+
 
         // double d = sc.nextDouble();
         // System.out.println(d);
