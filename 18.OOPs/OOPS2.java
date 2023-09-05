@@ -1,9 +1,11 @@
 // Access Modifiers
 
 public class OOPS2 {
-    BankAccount myAcc = new BankAccount();
-    myAcc.username = "shanto";
-    myAcc.setPassword("12ajdg");
+    public static void main(String[] args) {
+        BankAccount myAcc = new BankAccount();
+        myAcc.username = "shanto";
+        myAcc.setPassword("12ajdg");   
+    }
 }
 
 class BankAccount{
