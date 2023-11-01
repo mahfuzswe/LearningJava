@@ -38,6 +38,7 @@ class Animals{
     }
 }
 
+
 //Derived class
 class Fish extends Animals{
     int fins;
